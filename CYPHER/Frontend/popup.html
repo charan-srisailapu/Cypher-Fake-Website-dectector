@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fake Website Detector</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    html, body {
+      width: 300px;
+      height: 180px;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <center>
+        <img src="icons/logo.png" alt="Logo" class="logo" height="500px"/>
+        <h2>Cypher</h2>
+      </center>
+    </div>
+    
+    <p id="status">Status: Checking...</p>
+    <div id="status" class="status">
+      
+    </div>
+    
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle" />
+      <span class="slider"></span>
+    </label>
+  </div>
+  <script src="theme.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
